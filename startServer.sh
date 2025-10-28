@@ -23,7 +23,7 @@ node server.js &
 SERVER_PID=$!
 
 # Start HTTP server
-echo "🌐 Starting HTTP server on http://localhost:$HTTP_PORT"
+echo " Starting HTTP server on http://localhost:$HTTP_PORT"
 npx http-server . -p $HTTP_PORT &
 HTTP_PID=$!
 
